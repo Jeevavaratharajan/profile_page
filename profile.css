@@ -1,0 +1,907 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sub_container{
+    width: 100%;
+}
+
+ /* nav bar */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f6eee1;
+    padding-top: 26px;
+    /* margin-top: 2%; */
+}
+.name{
+width: 100%;
+font-family:'Times New Roman', Times, serif;
+margin-left: 35%;
+font-size: 250%;
+
+}
+
+ .nav_about{
+    margin-right: 18%;
+} 
+ .about{
+    width: 100%;
+    border-radius: 20px;
+    
+    margin-top: 14%;
+    padding: 17% 24%;
+    background-color: rgb(253, 173, 22);
+ }
+ @media screen and (max-width:480px) {
+    .name{
+        margin-left: 23%;
+    font-size: 138%;
+    }
+    .about{
+        margin-top: -3%;
+    padding: 12% 24%;
+    }
+    .eng{
+            padding-left: 0%;
+        }
+    
+    
+ }
+  
+ @media screen and (max-width: 1100px){
+    .prof_skill{
+  
+        
+        left: 0%;
+    
+    }
+    .language{
+        left:0%;
+        padding-left:0px;
+    }
+    
+}
+
+/* section 1 */
+
+.part{
+    width: 100%;
+
+}
+.part_1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f6eee1;
+    padding-top: 135px;
+    padding-bottom: 2%;
+    /* margin-top: 8%; */
+}
+.bio{
+    display: flex;
+    flex-direction:column;
+}
+.bio_p1{
+    width: 100%;
+}
+.hell{
+    font-size: 480%;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 25%;
+}
+.jii{
+    font-size: 400%;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 25%;
+    margin-top: 1%;
+ }
+ .bio_p2{
+    width: 100%;
+ margin-top: 1%;
+
+}
+.para{
+    margin-left: 25%;
+    margin-right: 15%;
+    text-align: center;
+}
+.bio_p3{
+width: 100%;
+margin-top: 25px;
+}
+.linkedin{
+    margin-left: 45%;
+    padding-top: 3px;
+    border-radius: 20px;
+    padding-bottom: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: rgb(253, 173, 22); 
+}
+.imgd{
+    margin-right: 15%;
+    position: relative;
+    top: 110px;
+
+}
+.image{
+    width: 100%;
+}
+
+.img_p{
+    width:100%;    
+}
+.photo{
+    width: 100%;
+}
+.details{
+        
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        align-items: center;
+        background-color: black;
+}
+.t{
+   color: white;
+}
+.qua{
+   
+    width: 37%;
+    margin-left: 15%;
+   
+}
+.h_e{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 190%;
+font-weight: 400;
+color: white
+}
+.ed_pro{
+    display: flex;
+    flex-direction: row;
+}
+.education{
+    width: 562.1px;
+    padding-bottom: 15%;
+    background-color: #334b35;
+    height: 77.74px;
+    margin-top: 6%;
+    margin-left: 15%;
+    
+}
+.tech_skill{
+    width: 100%;
+    background-color: rgb(253, 173, 22);
+}
+.head_edu{
+        display: flex
+    ;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 7%;
+}
+.sch_edu{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 8%;
+        padding-right: 16%;
+}
+
+.s_b{
+    width: 10%;
+}
+.s_y{
+    font-size: 20px;
+    font-family: math;
+    padding-top: 3%;
+    color: white
+}
+.c_bullet{
+        width: 100%;
+        padding-top: 3px;
+}
+.schl_year{
+    font-size: 25px;
+    color: white;
+    font-family: math;
+}
+.schl{
+    padding-top: 10%;
+    font-size: 21px;
+    padding-left: 6px;
+    color: white
+}
+.s_bullet{
+    width: 100%;
+    padding-top: 3px;
+}
+
+.clg_edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white
+}
+
+.c_b {
+    width: 9%;
+}
+.s_bullet {
+    width: 100%;
+    padding-top: 3px;
+}
+.clg_year{
+    font-size: 25px;
+    font-family: math;
+    padding-top: 14px;
+    color: white
+}
+.c_n{
+    width: 45%;
+    padding-left: 2%;
+    color: white
+
+}
+.clg{
+    font-size: 21px;
+    padding-top: 16px;
+    width: 100%;
+}
+
+.df{
+    display: flex;
+    flex-direction: row;
+
+}
+.head_tech_skill{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+.h_t{
+    padding-top: 7%;
+    font-size: 205%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+    font-size: 150%;
+    padding-left: 21%;
+    padding-top: 7%;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub_skill_list{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.himg{
+    width: 100%;
+}
+.head_tools{
+    color: white;
+}
+.bmh{
+    width: 37%;
+}
+.txth{
+    padding-top: 11%;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.css{
+    margin-right: 3%;
+}
+.bmc{
+    width: 40%;
+}
+.cimg{
+        width: 100%;
+    }
+
+.txtc{
+    padding-top: 12%;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.js{
+   
+    margin-left: 3%;
+}
+.bmjs{
+ 
+        width: 30%;
+        padding-left: 2%;
+    
+}
+.jsimg{
+    width: 100%;
+
+    padding-bottom: 32%;
+}
+.txtj{
+    padding-top: 9%; 
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub_tool_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.other_tool{
+    display: flex;
+        flex-direction: row;
+}
+.boot_i{
+    width: 40%;
+}
+.boot_img{
+    width: 100%;
+    padding-left: 12%;
+}
+.boot_txt{
+    padding-top: 11%;
+    color: white;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.git_img{
+    width: 100%;
+    padding-left: 10%;
+}
+.git_i{
+    width: 39%;
+}
+.git{
+    margin-left: 8%;
+}
+.git_txt{
+    padding-top: 9%;
+    color: white;
+    width: 82%;
+    margin-right: 6%;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tool{
+    background-color: #334b35;
+    padding-bottom: 8%;
+    width: 37%;
+    margin-left: 15%;
+    height: 85px;
+}
+
+.h_p{
+    padding-top: 7%;
+    font-size: 150%;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.prof_skill{
+  
+    position: relative;
+    top: 295px;
+    width: 20%;
+    background-color: #334b35;
+    height: 70%;
+    width: 22%;
+    padding-left: 6%;
+
+}
+.part_2{
+    background-color: #334b35;
+}
+.sub_prof_skill{
+    width: 100%;
+}
+.h_prof_skill{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+.pro{
+    display: flex;
+        justify-content: center;
+    }
+.pro_b{
+    width: 100%;
+}
+.prof_skill_list{
+    padding-top: 12%;
+}
+.pro_ex{
+    padding-right: 12%;
+}
+.pro_b1{
+    width: 16%;
+    padding-top: 2%;
+}
+.pro_txt1{
+    padding-top: 5%;
+    color: white;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.pro_ad{
+    padding-right: 34%;
+}
+.pro_b2{
+    width: 21%;
+}
+.pro_txt2{
+    padding-top: 4%;
+    color: white;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pro_co{
+    padding-right: 17%;
+}
+.pro_b3{
+    width: 18%;
+}
+.pro_txt3{
+    padding-top: 4%;
+    color: white;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con_lan{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+.phone{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+.p_im{
+    
+    width: 14%;
+    padding-top: 2%;
+}
+.phone_img{
+    width: 100%;
+}
+.num{
+    font-size: 125%;
+    font-weight: 600;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
+.m_im{
+    width: 14%;
+}
+.mail_img{
+width: 100%;
+padding-top: 8%;
+}
+.contact{
+    width: 20%;
+ 
+}
+.maill{
+    font-size: 125%;
+    font-weight: 600;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.sub_contact{
+    padding-top: 46%;
+    margin-right: 0%;
+    width: 88%;
+
+
+
+}
+.h_c{
+    font-size: 220%;
+}
+.lan_hob{
+    width: 41%;
+}
+.phone{
+    margin-right: 13%;
+    padding-top: 10%;
+
+}
+
+.lang_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lan{
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.language{
+    font-size: 156%;
+    padding-left: 28%;
+    width: 58%;
+}
+.head_lang{
+    padding-left: 55%;
+}
+.lang_list{
+    padding-top: 6%;
+    padding-left: 95%;
+}
+
+
+.tam{
+    padding-left: 80%;
+
+}
+.hobby{
+    width:65%;
+    padding-top: 15%;
+    margin-left: 15%;
+}
+.sub_hobby{
+    width: 100%;
+    margin-left: 33%;
+
+}
+.h_h{
+    text-align: center;
+    font-size: 170%;
+}
+.movie{
+    display: flex ;
+        flex-direction: row;
+        padding-top: 2%;
+        padding-left: 8%;
+}
+.wm{
+    width: 30%;
+    
+}
+.movie_txt{
+    padding-top: 11%;
+    padding-left: 3%;
+    font-size: 120%;
+    font-weight: 300;
+}
+.part_3{
+    padding-bottom: 5%;
+    background-color: #f6eee1;
+}
+@media screen and (max-width : 768px) {
+    .name{
+        font-size: 178%;
+    }
+    .about{
+        margin-top: 8%;
+        padding: 12% 24%;
+    }
+    .jii{
+        font-size: 300%;
+    }
+    .hell{
+        font-size: 400%;
+    }
+    .linkedin{
+         margin-left: 42%;
+        
+    }
+    .part_1{
+        padding-bottom: 7%;
+    
+    }
+    .schl_year {
+        font-size: 20px;
+    }
+    .education {
+        width: 562.1px;
+        padding-bottom: 18%;
+        background-color: #334b35;
+        height: 77.74px;
+        margin-top: 6%;
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
+    .head_edu{
+        padding-right: 37%;
+    }
+    .sch_edu{
+        padding-right: 35%;
+    }
+    .schl{
+        padding-top: 4%;
+    }
+    .clg_edu{
+        padding-right: 44%;
+    }
+    .clg_year{
+        font-size: 20px;
+    }
+    .clg{
+        padding-top: 12px;
+    }
+    .c_b {
+        width: 11%;
+    }
+    .s_bullet{
+        padding-top: 8px;
+    }    
+    .js {
+        margin-left: 10%;
+    }
+    .prof_skill {
+        left: 0%;
+        padding-left: 0%;
+    }
+    .pro_b1 {
+        width: 31%;
+        padding-top: 3%;
+    }
+    .pro_b2 {
+        width: 28%;
+        padding-top: 2%;
+    }
+    .pro_ad {
+        padding-right: 32%;
+        padding-top: 3%;
+    }
+    .pro_co {
+        padding-right: 1%;
+    }
+    .pro_b3 {
+        width: 20%;
+    }
+    .git {
+        margin-left: 10%;
+    }.tool{
+        padding-bottom: 11%;
+    }
+    .Bootstrap{
+        padding-right: 6%;
+    }
+    .h_c {
+        font-size: 160%;
+    }
+    .num {
+        font-size: 90%;
+    }
+    .maill {
+        font-size: 91%;
+    }
+    h_l{
+        font-size: 100%;
+    }
+    .lan {
+        font-size: 67%;
+    }
+    .h_h {
+    
+        font-size: 131%;
+    }
+    .movie_img{
+        width: 100%;
+
+    }
+    .w_m{
+        width: 26%;  
+    }
+    .hobby {
+        width: 78%;
+    }
+    .movie_txt {
+        padding-top: 9%;
+        
+        font-size: 97%;
+    }
+}
+@media screen and (max-width : 768px) {
+    .name {
+        font-size: 150%;
+    }
+    .about {
+        margin-top: 1%;
+        padding: 9% 24%;
+    }
+    .bio{
+        padding-top: 29%;
+    }
+    /* .details{
+            display: none;
+    } */
+    .imgd {
+        width: 285%;
+        margin-right: 15%;
+        position: relative;
+        top: -24px;
+        right: 1%;
+    }
+    .hell {
+        font-size: 250%;
+    }
+    .jii {
+        font-size: 200%;
+    }
+    .bio_p2{
+        width: 177%;
+    }
+    .para {
+        margin-left: 2%;
+    }
+    .linkedin {
+        margin-left: 46%;
+    }
+    .schl {
+        padding-top: 7%;
+    }
+    .h_e {
+       
+        font-size: 110%;
+        }
+        .s_b {
+            width:9%;
+        }
+        .s_y {
+            width: 30%;
+        }
+    .s_name{
+        width: 163%;
+    }
+
+.clg_edu {
+    padding-right: 41%;
+}
+
+        .schl_year {
+            font-size: 61%;
+            width: 100%;
+        }
+        .schl {
+            
+            font-size: 74%;
+            width: 100%;
+        }  
+        .c_bullet {
+            width: 100%;
+        }    
+        .clg_year{
+            font-size: 61%;    
+        }
+        .clg {
+            font-size: 74%;
+        }
+        .education {
+            margin-bottom: 16%;
+            padding-bottom: 5%;
+          
+            
+        }
+        .h_t{
+            font-size: 139%;
+            padding-bottom: 11%;
+        }
+        .head {
+            font-size: 110%;
+            padding-left: 11%;
+        }
+        .bmh {
+            width: 23%;
+
+        }
+        .bmc {
+            width: 25%;
+        }
+        .himg{
+            padding-top: 27%;
+        }
+        .txth{
+            font-size: 80%;
+
+        }
+        .txtc {
+            padding-top: 2%;
+        }
+        .bmjs {
+            width: 22%
+        }
+        .txtj {
+            padding-top: 3%;
+            font-size: 80%;
+        }
+       
+        .html{
+            padding-left: 29%;
+        }
+        .css {
+            margin-left: 27%;
+        }
+        .js {
+            margin-left: 27%;
+        }
+        .txtc {
+            padding-top: 6%;
+            font-size: 80%;
+        }
+        .boot_i {
+            width: 25%
+        }
+        .boot_img {
+            padding-top: 10%;
+        }
+    .git_i {
+        width: 21%;
+    }
+    .git {
+        margin-left: 11%;
+    }
+    .git_txt {
+        padding-top: 4%;
+        font-size: 80%;
+    }
+    .boot_txt {
+        padding-top: 6%;
+        font-size: 80%;
+    }
+    .prof_skill {
+        position: relative;
+        top: 150px;
+        left: -9%;
+    }
+    .pro_txt1 {
+        font-size: 80%;
+    }
+    .pro_txt2 {
+        font-size: 80%;
+    }
+    .pro_txt3 {
+    font-size: 80%
+    }
+    .h_p{
+        font-size: 100%;
+    }
+   .pro_b1{
+   width: 47%;
+        padding-top: 4%;
+    }
+    .pro_ad{
+        display: none;
+    }
+    .pro_txt3 {
+        font-size: 80%;
+        margin-left: 12%;
+    }
+    .head_lang {
+        padding-left: 14%;
+ }
+.h_l{    font-size: 8%;
+}
+.tam {
+    padding-left: 180%;
+}
+.h_c {
+    font-size: 114%;
+}
+.language{
+    padding-left: 37%;
+}
+.h_h {
+    font-size: 117%;
+}
+
+
+ 
+.h_l {
+    font-size: 64%;
+}
+}
